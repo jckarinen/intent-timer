@@ -19,3 +19,5 @@ Some stuff to keep in mind:
 Yeah, pretty weird, isn't it?
 
 Eventually, I'll create a cross-platform GUI for the application so that it can be used by normal humans. For now, it's serving its purpose on my system!
+
+Oh, yeah - not that anyone will ever read this, but to use the program, just type `intent [timer duration in minutes]`, e.g. `intent 15`.
