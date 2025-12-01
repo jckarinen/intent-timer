@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
 
 	char *endptr;
 	errno = 0;
-	int n = strtol(argv[1], &endptr, 10);
+	strtol(argv[1], &endptr, 10);
 
 	if (errno == ERANGE) {
 		printf("Integer out of range: %s\n", argv[1]);
